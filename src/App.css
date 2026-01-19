@@ -1,0 +1,14 @@
+.box{
+    background-color: rgb(172, 172, 226);
+    width: 100%;
+    height: 100vh;
+    padding: 35px;
+}
+.box h2{
+padding-bottom: 10px;
+}
+.box input{
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
