@@ -4,11 +4,9 @@ import style from './ValueDisplay.module.css'
 function ValueDisplay({value}){
     const prevValueRef = useRef('')
 
-    useEffect(() => {
-    return () => {
-      prevValueRef.current = value
-    }
-  })
+  useEffect(() => {
+  prevValueRef.current = value
+}, [value])
 
     return(
         <div className={style.textBox}>
